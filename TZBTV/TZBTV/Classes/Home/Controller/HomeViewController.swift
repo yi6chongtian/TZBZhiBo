@@ -12,7 +12,7 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setupUI()
         // Do any additional setup after loading the view.
     }
 
@@ -21,15 +21,66 @@ class HomeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+}
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+extension HomeViewController{
+    fileprivate func setupUI() -> Void {
+        //view.backgroundColor = UIColor.randomColor()
+        self.automaticallyAdjustsScrollViewInsets = false
+        setupNaviBar()
+        
+        setupContentView()
+        
     }
-    */
-
+    
+    fileprivate func setupNaviBar(){
+        //home-logo search_btn_follow
+        
+        navigationController?.navigationBar.barTintColor = UIColor.black
+        
+        let logoImage = UIImage(named: "home-logo")
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(image: logoImage, style: .plain, target: nil, action: nil)
+        
+        let rightImage = UIImage(named: "search_btn_follow")
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: rightImage, style: .plain, target: nil, action: nil)
+        
+        let searchRect = CGRect(x: 0, y: 0, width: 200, height: 32)
+        let searchBar = UISearchBar(frame: searchRect)
+        searchBar.placeholder = "主播昵称/房间号/链接"
+        searchBar.searchBarStyle = UISearchBarStyle.minimal
+        let searchFiled = searchBar.value(forKey: "_searchField") as? UITextField
+        searchFiled?.textColor = UIColor.white
+        navigationItem.titleView = searchBar
+        
+//        //获取UISearchBar的所有成员变量
+//        var count:UInt32 = 0;
+//        let ivars = class_copyIvarList(UISearchBar.self, &count)!
+//        for i in 0..<count{
+//            let nameC = ivar_getName(ivars[Int(i)])
+//            let namePro = String(cString: nameC!)
+//            print(namePro)
+//        }
+    }
+    
+    fileprivate func setupContentView(){
+        let titles = ["全部","高颜值","高颜值","高颜值","高颜值","高颜值","高颜值","高颜值","高颜值","高颜值"]
+        
+        var vcList = [UIViewController]()
+        for _ in 0..<titles.count {
+            let vc = UIViewController()
+            vc.view.backgroundColor = UIColor.randomColor()
+            vcList.append(vc)
+        }
+        
+        let style = HYTitleStyle()
+        style.isShowBottomLine = true
+        style.isScrollEnable = true
+//        print( UIApplication.shared.statusBarFrame.height)
+//        print( self.navigationController?.navigationBar.frame)
+        let pageY = kStatusBarH + kNavigationBarH + 0;
+        let pageRect = CGRect(x: 0, y: pageY, width: kScreenW, height: view.bounds.height - pageY - kTabBarH)
+        let pageView = HYPageView(frame: pageRect, titles: titles, style: style, childVCs: vcList, parentVC: self)
+        view.addSubview(pageView)
+        
+    }
 }

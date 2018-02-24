@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92232847204142BC00764A74 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92232846204142BC00764A74 /* Const.swift */; };
+		9261816520410E53001E3017 /* TZBNavaigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9261816420410E53001E3017 /* TZBNavaigationViewController.swift */; };
+		926181682041103B001E3017 /* HYPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926181672041103B001E3017 /* HYPageView.swift */; };
+		9261816A2041104D001E3017 /* HYTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926181692041104D001E3017 /* HYTitleView.swift */; };
+		9261816C20411072001E3017 /* HYContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9261816B20411072001E3017 /* HYContentView.swift */; };
+		9261816E2041108F001E3017 /* HYTitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9261816D2041108F001E3017 /* HYTitleStyle.swift */; };
 		92D8D7A4203E8EBA0093FE0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D8D7A3203E8EBA0093FE0B /* AppDelegate.swift */; };
 		92D8D7A6203E8EBB0093FE0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D8D7A5203E8EBB0093FE0B /* ViewController.swift */; };
 		92D8D7A9203E8EBB0093FE0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D8D7A7203E8EBB0093FE0B /* Main.storyboard */; };
@@ -26,6 +32,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		92232846204142BC00764A74 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		9261816420410E53001E3017 /* TZBNavaigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TZBNavaigationViewController.swift; sourceTree = "<group>"; };
+		926181672041103B001E3017 /* HYPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYPageView.swift; sourceTree = "<group>"; };
+		926181692041104D001E3017 /* HYTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYTitleView.swift; sourceTree = "<group>"; };
+		9261816B20411072001E3017 /* HYContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYContentView.swift; sourceTree = "<group>"; };
+		9261816D2041108F001E3017 /* HYTitleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYTitleStyle.swift; sourceTree = "<group>"; };
 		92D8D7A0203E8EBA0093FE0B /* TZBTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TZBTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D8D7A3203E8EBA0093FE0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92D8D7A5203E8EBB0093FE0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -198,6 +210,7 @@
 		92D8D7C2203E909B0093FE0B /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				92232846204142BC00764A74 /* Const.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -205,6 +218,10 @@
 		92D8D7C3203E90A10093FE0B /* HYPageView */ = {
 			isa = PBXGroup;
 			children = (
+				926181672041103B001E3017 /* HYPageView.swift */,
+				926181692041104D001E3017 /* HYTitleView.swift */,
+				9261816B20411072001E3017 /* HYContentView.swift */,
+				9261816D2041108F001E3017 /* HYTitleStyle.swift */,
 			);
 			path = HYPageView;
 			sourceTree = "<group>";
@@ -213,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				92D8D7C6203E915C0093FE0B /* MainViewController.swift */,
+				9261816420410E53001E3017 /* TZBNavaigationViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -482,10 +500,16 @@
 				92D8D7F9203E972D0093FE0B /* UIColor-Extension.swift in Sources */,
 				92D8D7C7203E915C0093FE0B /* MainViewController.swift in Sources */,
 				92D8D7A6203E8EBB0093FE0B /* ViewController.swift in Sources */,
+				9261816A2041104D001E3017 /* HYTitleView.swift in Sources */,
+				9261816E2041108F001E3017 /* HYTitleStyle.swift in Sources */,
+				9261816C20411072001E3017 /* HYContentView.swift in Sources */,
+				926181682041103B001E3017 /* HYPageView.swift in Sources */,
 				92D8D7F5203E96CC0093FE0B /* DiscoverViewController.swift in Sources */,
 				92D8D7F7203E96DB0093FE0B /* ProfileViewController.swift in Sources */,
+				9261816520410E53001E3017 /* TZBNavaigationViewController.swift in Sources */,
 				92D8D7A4203E8EBA0093FE0B /* AppDelegate.swift in Sources */,
 				92D8D7E7203E93560093FE0B /* HomeViewController.swift in Sources */,
+				92232847204142BC00764A74 /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

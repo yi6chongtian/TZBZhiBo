@@ -13,7 +13,7 @@
         <!--发现-->
         <scene sceneID="upD-RR-jrP">
             <objects>
-                <navigationController id="Dso-ui-6UG" sceneMemberID="viewController">
+                <navigationController id="Dso-ui-6UG" customClass="TZBNavaigationViewController" customModule="TZBTV" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="发现" image="found-n" selectedImage="found-p" id="tlP-b2-3ps"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="e5h-o1-JTu">
