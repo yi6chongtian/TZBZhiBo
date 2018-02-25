@@ -66,6 +66,6 @@ extension HYPageView : HYContentViewDelegate{
     }
     
     func contentView(_ contentView : HYContentView, progres : CGFloat, sourceIndex : Int, targetIndex : Int){
-        titleView.setTitleWithProgress(progress, sourceIndex: sourceIndex, targetIndex: targetIndex)
+        titleView.setTitleWithProgress(progres, sourceIndex: sourceIndex, targetIndex: targetIndex)
     }
 }

@@ -17,7 +17,7 @@ class HYTitleView: UIView {
     weak var delegate : HYTitleViewDelegate?
     
     fileprivate lazy var normalColorRGB : (r : CGFloat, g : CGFloat, b : CGFloat) = getRGBWithColor(self.style.normalColor)
-    fileprivate lazy var selectedColorRGB : (r : CGFloat, g : CGFloat, b : CGFloat) = getRGBWithColor(self.style.normalColor)
+    fileprivate lazy var selectedColorRGB : (r : CGFloat, g : CGFloat, b : CGFloat) = getRGBWithColor(self.style.selectedColor)
     
     fileprivate var titles : [String]!
     fileprivate var style : HYTitleStyle!
@@ -202,6 +202,17 @@ extension HYTitleView{
         sourceLabel.textColor = UIColor(r: selectedColorRGB.0 - progress * colorDelta.0, g: selectedColorRGB.1 - progress * colorDelta.1, b: selectedColorRGB.2 - progress * colorDelta.2)
         //2.3target颜色变化
         targetLabel.textColor = UIColor(r: normalColorRGB.0 + progress * colorDelta.0, g: normalColorRGB.1 + progress * colorDelta.1, b: normalColorRGB.2 + progress * colorDelta.2)
+        
+        //3.下划线变化
+        if style.isShowBottomLine{
+            let moveX = targetLabel.frame.origin.x - sourceLabel.frame.origin.x
+            let moveW = targetLabel.frame.width - sourceLabel.frame.width
+            bottomLineView.frame.origin.x = sourceLabel.frame.origin.x + progress * moveX
+            bottomLineView.frame.size.width = sourceLabel.frame.width + progress * moveW
+        }
+        
+        // 4.记录最新的index
+        selectedIndex = targetIndex
     }
     
     func contentViewDidEndScroll(){

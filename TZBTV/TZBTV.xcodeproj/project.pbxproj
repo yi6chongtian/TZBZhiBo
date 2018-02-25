@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		243125DD2042C976001289C2 /* AnchorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243125DC2042C976001289C2 /* AnchorViewController.swift */; };
+		2485508D20427A1C00D24C89 /* WatterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2485508C20427A1C00D24C89 /* WatterfallLayout.swift */; };
 		92232847204142BC00764A74 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92232846204142BC00764A74 /* Const.swift */; };
 		9261816520410E53001E3017 /* TZBNavaigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9261816420410E53001E3017 /* TZBNavaigationViewController.swift */; };
 		926181682041103B001E3017 /* HYPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926181672041103B001E3017 /* HYPageView.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		243125DC2042C976001289C2 /* AnchorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorViewController.swift; sourceTree = "<group>"; };
+		2485508C20427A1C00D24C89 /* WatterfallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatterfallLayout.swift; sourceTree = "<group>"; };
 		92232846204142BC00764A74 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		9261816420410E53001E3017 /* TZBNavaigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TZBNavaigationViewController.swift; sourceTree = "<group>"; };
 		926181672041103B001E3017 /* HYPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYPageView.swift; sourceTree = "<group>"; };
@@ -69,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2485508B20427A0000D24C89 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2485508C20427A1C00D24C89 /* WatterfallLayout.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		92D8D797203E8EBA0093FE0B = {
 			isa = PBXGroup;
 			children = (
@@ -159,10 +171,10 @@
 		92D8D7BD203E90340093FE0B /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				2485508B20427A0000D24C89 /* Other */,
 				92D8D7CB203E91DF0093FE0B /* Controller */,
 				92D8D7CA203E91D90093FE0B /* View */,
 				92D8D7C9203E91CB0093FE0B /* Model */,
-				92D8D7C8203E91C60093FE0B /* Other */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -243,13 +255,6 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		92D8D7C8203E91C60093FE0B /* Other */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
 		92D8D7C9203E91CB0093FE0B /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,6 +274,7 @@
 			children = (
 				92D8D7E4203E93040093FE0B /* Home.storyboard */,
 				92D8D7E6203E93560093FE0B /* HomeViewController.swift */,
+				243125DC2042C976001289C2 /* AnchorViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -509,7 +515,9 @@
 				9261816520410E53001E3017 /* TZBNavaigationViewController.swift in Sources */,
 				92D8D7A4203E8EBA0093FE0B /* AppDelegate.swift in Sources */,
 				92D8D7E7203E93560093FE0B /* HomeViewController.swift in Sources */,
+				2485508D20427A1C00D24C89 /* WatterfallLayout.swift in Sources */,
 				92232847204142BC00764A74 /* Const.swift in Sources */,
+				243125DD2042C976001289C2 /* AnchorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

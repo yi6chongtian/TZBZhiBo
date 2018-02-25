@@ -67,7 +67,7 @@ extension HomeViewController{
         
         var vcList = [UIViewController]()
         for _ in 0..<titles.count {
-            let vc = UIViewController()
+            let vc = AnchorViewController()
             vc.view.backgroundColor = UIColor.randomColor()
             vcList.append(vc)
         }
