@@ -63,12 +63,13 @@ extension HomeViewController{
     }
     
     fileprivate func setupContentView(){
-        let titles = ["全部","高颜值","高颜值","高颜值","高颜值","高颜值","高颜值","高颜值","高颜值","高颜值"]
+        let typelist = loadTypeData()
+        let titles = typelist.map { $0.title}
         
         var vcList = [UIViewController]()
-        for _ in 0..<titles.count {
+        for i in 0..<titles.count {
             let vc = AnchorViewController()
-            vc.view.backgroundColor = UIColor.randomColor()
+            vc.homeType = typelist[i]
             vcList.append(vc)
         }
         
@@ -82,5 +83,18 @@ extension HomeViewController{
         let pageView = HYPageView(frame: pageRect, titles: titles, style: style, childVCs: vcList, parentVC: self)
         view.addSubview(pageView)
         
+    }
+}
+
+extension HomeViewController {
+    func loadTypeData() -> [HomeType] {
+        var homeTypeList = [HomeType]()
+        let path = Bundle.main.path(forResource: "types", ofType: "plist")!
+        let array = NSArray(contentsOfFile: path) as! [[String : Any]]
+        for dict in array {
+            let hometype = HomeType(dict: dict)
+            homeTypeList.append(hometype)
+        }
+        return homeTypeList
     }
 }

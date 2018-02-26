@@ -15,6 +15,37 @@
 		9261816A2041104D001E3017 /* HYTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926181692041104D001E3017 /* HYTitleView.swift */; };
 		9261816C20411072001E3017 /* HYContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9261816B20411072001E3017 /* HYContentView.swift */; };
 		9261816E2041108F001E3017 /* HYTitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9261816D2041108F001E3017 /* HYTitleStyle.swift */; };
+		926389572043A9CE00D9D7CF /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926389562043A9CE00D9D7CF /* BaseModel.swift */; };
+		926389592043AA3C00D9D7CF /* HomeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926389582043AA3C00D9D7CF /* HomeType.swift */; };
+		9263895B2043BAC400D9D7CF /* AnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263895A2043BAC400D9D7CF /* AnchorModel.swift */; };
+		9263895D2043BB4F00D9D7CF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263895C2043BB4F00D9D7CF /* HomeViewModel.swift */; };
+		926FD0FB2043D60D00AACBDB /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926FD0FA2043D60D00AACBDB /* NetworkTools.swift */; };
+		926FD0FE2043DB9900AACBDB /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926FD0FC2043DB9900AACBDB /* HomeViewCell.swift */; };
+		926FD0FF2043DB9900AACBDB /* HomeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926FD0FD2043DB9900AACBDB /* HomeViewCell.xib */; };
+		926FD1012043DBC600AACBDB /* KingfisherExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926FD1002043DBC600AACBDB /* KingfisherExtension.swift */; };
+		926FD1082043DE3300AACBDB /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926FD1072043DE3300AACBDB /* NibLoadable.swift */; };
+		926FD10B2043E02E00AACBDB /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926FD1092043E02E00AACBDB /* RoomViewController.swift */; };
+		926FD10C2043E02E00AACBDB /* RoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926FD10A2043E02E00AACBDB /* RoomViewController.xib */; };
+		926FD10E2043E12C00AACBDB /* Emitterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926FD10D2043E12C00AACBDB /* Emitterable.swift */; };
+		926FD11A2043E85800AACBDB /* GiftListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926FD1102043E85800AACBDB /* GiftListView.swift */; };
+		926FD11B2043E85800AACBDB /* GiftListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926FD1112043E85800AACBDB /* GiftListView.xib */; };
+		926FD11C2043E85800AACBDB /* GiftViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926FD1122043E85800AACBDB /* GiftViewCell.swift */; };
+		926FD11D2043E85800AACBDB /* GiftViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926FD1132043E85800AACBDB /* GiftViewCell.xib */; };
+		926FD11E2043E85800AACBDB /* ChatToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926FD1152043E85800AACBDB /* ChatToolsView.swift */; };
+		926FD11F2043E85800AACBDB /* ChatToolsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926FD1162043E85800AACBDB /* ChatToolsView.xib */; };
+		926FD1202043E85800AACBDB /* EmoticonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926FD1172043E85800AACBDB /* EmoticonView.swift */; };
+		926FD1212043E85800AACBDB /* EmoticonViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926FD1182043E85800AACBDB /* EmoticonViewCell.swift */; };
+		926FD1222043E85800AACBDB /* EmoticonViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926FD1192043E85800AACBDB /* EmoticonViewCell.xib */; };
+		926FD1272043E95900AACBDB /* GiftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926FD1232043E95800AACBDB /* GiftModel.swift */; };
+		926FD1282043E95900AACBDB /* Emoticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926FD1242043E95800AACBDB /* Emoticon.swift */; };
+		926FD1292043E95900AACBDB /* GiftPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926FD1252043E95900AACBDB /* GiftPackage.swift */; };
+		926FD12A2043E95900AACBDB /* EmoticonPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926FD1262043E95900AACBDB /* EmoticonPackage.swift */; };
+		926FD12D2043E97700AACBDB /* HYPageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926FD12B2043E97700AACBDB /* HYPageCollectionView.swift */; };
+		926FD12E2043E97700AACBDB /* HYPageCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926FD12C2043E97700AACBDB /* HYPageCollectionViewLayout.swift */; };
+		926FD1322043E9C400AACBDB /* EmoticonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926FD1302043E9C400AACBDB /* EmoticonViewModel.swift */; };
+		926FD1332043E9C400AACBDB /* GiftViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926FD1312043E9C400AACBDB /* GiftViewModel.swift */; };
+		926FD1362043EA4F00AACBDB /* QHNormalEmotionSort.plist in Resources */ = {isa = PBXBuildFile; fileRef = 926FD1342043EA4E00AACBDB /* QHNormalEmotionSort.plist */; };
+		926FD1372043EA4F00AACBDB /* QHSohuGifSort.plist in Resources */ = {isa = PBXBuildFile; fileRef = 926FD1352043EA4F00AACBDB /* QHSohuGifSort.plist */; };
 		92D8D7A4203E8EBA0093FE0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D8D7A3203E8EBA0093FE0B /* AppDelegate.swift */; };
 		92D8D7A6203E8EBB0093FE0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D8D7A5203E8EBB0093FE0B /* ViewController.swift */; };
 		92D8D7A9203E8EBB0093FE0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D8D7A7203E8EBB0093FE0B /* Main.storyboard */; };
@@ -31,17 +62,52 @@
 		92D8D7F5203E96CC0093FE0B /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D8D7F4203E96CC0093FE0B /* DiscoverViewController.swift */; };
 		92D8D7F7203E96DB0093FE0B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D8D7F6203E96DB0093FE0B /* ProfileViewController.swift */; };
 		92D8D7F9203E972D0093FE0B /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D8D7F8203E972D0093FE0B /* UIColor-Extension.swift */; };
+		B4AC56908DCAD905701FE4E1 /* Pods_TZBTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 675A319C28AE5FB3EFBEF10C /* Pods_TZBTV.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		243125DC2042C976001289C2 /* AnchorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorViewController.swift; sourceTree = "<group>"; };
 		2485508C20427A1C00D24C89 /* WatterfallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatterfallLayout.swift; sourceTree = "<group>"; };
+		675A319C28AE5FB3EFBEF10C /* Pods_TZBTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TZBTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A7EC583543D343DBF7B11E /* Pods-TZBTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZBTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TZBTV/Pods-TZBTV.debug.xcconfig"; sourceTree = "<group>"; };
+		8FDF8631DCFB492DDA91D347 /* Pods-TZBTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZBTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-TZBTV/Pods-TZBTV.release.xcconfig"; sourceTree = "<group>"; };
 		92232846204142BC00764A74 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		9261816420410E53001E3017 /* TZBNavaigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TZBNavaigationViewController.swift; sourceTree = "<group>"; };
 		926181672041103B001E3017 /* HYPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYPageView.swift; sourceTree = "<group>"; };
 		926181692041104D001E3017 /* HYTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYTitleView.swift; sourceTree = "<group>"; };
 		9261816B20411072001E3017 /* HYContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYContentView.swift; sourceTree = "<group>"; };
 		9261816D2041108F001E3017 /* HYTitleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYTitleStyle.swift; sourceTree = "<group>"; };
+		926389562043A9CE00D9D7CF /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		926389582043AA3C00D9D7CF /* HomeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeType.swift; sourceTree = "<group>"; };
+		9263895A2043BAC400D9D7CF /* AnchorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorModel.swift; sourceTree = "<group>"; };
+		9263895C2043BB4F00D9D7CF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		926FD0FA2043D60D00AACBDB /* NetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		926FD0FC2043DB9900AACBDB /* HomeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		926FD0FD2043DB9900AACBDB /* HomeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewCell.xib; sourceTree = "<group>"; };
+		926FD1002043DBC600AACBDB /* KingfisherExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherExtension.swift; sourceTree = "<group>"; };
+		926FD1072043DE3300AACBDB /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		926FD1092043E02E00AACBDB /* RoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		926FD10A2043E02E00AACBDB /* RoomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoomViewController.xib; sourceTree = "<group>"; };
+		926FD10D2043E12C00AACBDB /* Emitterable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emitterable.swift; sourceTree = "<group>"; };
+		926FD1102043E85800AACBDB /* GiftListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftListView.swift; sourceTree = "<group>"; };
+		926FD1112043E85800AACBDB /* GiftListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GiftListView.xib; sourceTree = "<group>"; };
+		926FD1122043E85800AACBDB /* GiftViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftViewCell.swift; sourceTree = "<group>"; };
+		926FD1132043E85800AACBDB /* GiftViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GiftViewCell.xib; sourceTree = "<group>"; };
+		926FD1152043E85800AACBDB /* ChatToolsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatToolsView.swift; sourceTree = "<group>"; };
+		926FD1162043E85800AACBDB /* ChatToolsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatToolsView.xib; sourceTree = "<group>"; };
+		926FD1172043E85800AACBDB /* EmoticonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonView.swift; sourceTree = "<group>"; };
+		926FD1182043E85800AACBDB /* EmoticonViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonViewCell.swift; sourceTree = "<group>"; };
+		926FD1192043E85800AACBDB /* EmoticonViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmoticonViewCell.xib; sourceTree = "<group>"; };
+		926FD1232043E95800AACBDB /* GiftModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftModel.swift; sourceTree = "<group>"; };
+		926FD1242043E95800AACBDB /* Emoticon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoticon.swift; sourceTree = "<group>"; };
+		926FD1252043E95900AACBDB /* GiftPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftPackage.swift; sourceTree = "<group>"; };
+		926FD1262043E95900AACBDB /* EmoticonPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonPackage.swift; sourceTree = "<group>"; };
+		926FD12B2043E97700AACBDB /* HYPageCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYPageCollectionView.swift; sourceTree = "<group>"; };
+		926FD12C2043E97700AACBDB /* HYPageCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYPageCollectionViewLayout.swift; sourceTree = "<group>"; };
+		926FD1302043E9C400AACBDB /* EmoticonViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonViewModel.swift; sourceTree = "<group>"; };
+		926FD1312043E9C400AACBDB /* GiftViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftViewModel.swift; sourceTree = "<group>"; };
+		926FD1342043EA4E00AACBDB /* QHNormalEmotionSort.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = QHNormalEmotionSort.plist; sourceTree = "<group>"; };
+		926FD1352043EA4F00AACBDB /* QHSohuGifSort.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = QHSohuGifSort.plist; sourceTree = "<group>"; };
 		92D8D7A0203E8EBA0093FE0B /* TZBTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TZBTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D8D7A3203E8EBA0093FE0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92D8D7A5203E8EBB0093FE0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,18 +133,78 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4AC56908DCAD905701FE4E1 /* Pods_TZBTV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B6ADF6B4DAC43B5617DDD3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				675A319C28AE5FB3EFBEF10C /* Pods_TZBTV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2485508B20427A0000D24C89 /* Other */ = {
 			isa = PBXGroup;
 			children = (
 				2485508C20427A1C00D24C89 /* WatterfallLayout.swift */,
+				9263895C2043BB4F00D9D7CF /* HomeViewModel.swift */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		6C39EEC37555986E9ABE5BA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67A7EC583543D343DBF7B11E /* Pods-TZBTV.debug.xcconfig */,
+				8FDF8631DCFB492DDA91D347 /* Pods-TZBTV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		926FD1062043DE1600AACBDB /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				926FD1072043DE3300AACBDB /* NibLoadable.swift */,
+				926FD10D2043E12C00AACBDB /* Emitterable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		926FD10F2043E85800AACBDB /* GiftView */ = {
+			isa = PBXGroup;
+			children = (
+				926FD1102043E85800AACBDB /* GiftListView.swift */,
+				926FD1112043E85800AACBDB /* GiftListView.xib */,
+				926FD1122043E85800AACBDB /* GiftViewCell.swift */,
+				926FD1132043E85800AACBDB /* GiftViewCell.xib */,
+			);
+			path = GiftView;
+			sourceTree = "<group>";
+		};
+		926FD1142043E85800AACBDB /* ChatView */ = {
+			isa = PBXGroup;
+			children = (
+				926FD1152043E85800AACBDB /* ChatToolsView.swift */,
+				926FD1162043E85800AACBDB /* ChatToolsView.xib */,
+				926FD1172043E85800AACBDB /* EmoticonView.swift */,
+				926FD1182043E85800AACBDB /* EmoticonViewCell.swift */,
+				926FD1192043E85800AACBDB /* EmoticonViewCell.xib */,
+			);
+			path = ChatView;
+			sourceTree = "<group>";
+		};
+		926FD12F2043E9C400AACBDB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				926FD1302043E9C400AACBDB /* EmoticonViewModel.swift */,
+				926FD1312043E9C400AACBDB /* GiftViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		92D8D797203E8EBA0093FE0B = {
@@ -86,6 +212,8 @@
 			children = (
 				92D8D7A2203E8EBA0093FE0B /* TZBTV */,
 				92D8D7A1203E8EBA0093FE0B /* Products */,
+				6C39EEC37555986E9ABE5BA0 /* Pods */,
+				1B6ADF6B4DAC43B5617DDD3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +243,8 @@
 		92D8D7B6203E8FA60093FE0B /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				926FD1342043EA4E00AACBDB /* QHNormalEmotionSort.plist */,
+				926FD1352043EA4F00AACBDB /* QHSohuGifSort.plist */,
 				92D8D7B8203E8FEB0093FE0B /* types.plist */,
 			);
 			path = Resource;
@@ -149,6 +279,7 @@
 		92D8D7BB203E90240093FE0B /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				926FD1062043DE1600AACBDB /* Protocol */,
 				92D8D7C5203E90B40093FE0B /* Extension */,
 				92D8D7C4203E90AC0093FE0B /* Controller */,
 				92D8D7C3203E90A10093FE0B /* HYPageView */,
@@ -160,6 +291,7 @@
 		92D8D7BC203E902C0093FE0B /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				926FD12F2043E9C400AACBDB /* ViewModel */,
 				92D8D7DC203E92AB0093FE0B /* Controller */,
 				92D8D7DD203E92AB0093FE0B /* Model */,
 				92D8D7DE203E92AB0093FE0B /* Other */,
@@ -215,6 +347,8 @@
 		92D8D7C1203E90600093FE0B /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				926FD1002043DBC600AACBDB /* KingfisherExtension.swift */,
+				926FD0FA2043D60D00AACBDB /* NetworkTools.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -230,6 +364,8 @@
 		92D8D7C3203E90A10093FE0B /* HYPageView */ = {
 			isa = PBXGroup;
 			children = (
+				926FD12B2043E97700AACBDB /* HYPageCollectionView.swift */,
+				926FD12C2043E97700AACBDB /* HYPageCollectionViewLayout.swift */,
 				926181672041103B001E3017 /* HYPageView.swift */,
 				926181692041104D001E3017 /* HYTitleView.swift */,
 				9261816B20411072001E3017 /* HYContentView.swift */,
@@ -258,6 +394,8 @@
 		92D8D7C9203E91CB0093FE0B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9263895A2043BAC400D9D7CF /* AnchorModel.swift */,
+				926389582043AA3C00D9D7CF /* HomeType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -265,6 +403,8 @@
 		92D8D7CA203E91D90093FE0B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				926FD0FC2043DB9900AACBDB /* HomeViewCell.swift */,
+				926FD0FD2043DB9900AACBDB /* HomeViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -342,6 +482,8 @@
 		92D8D7DC203E92AB0093FE0B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				926FD1092043E02E00AACBDB /* RoomViewController.swift */,
+				926FD10A2043E02E00AACBDB /* RoomViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -349,6 +491,10 @@
 		92D8D7DD203E92AB0093FE0B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				926FD1242043E95800AACBDB /* Emoticon.swift */,
+				926FD1262043E95900AACBDB /* EmoticonPackage.swift */,
+				926FD1232043E95800AACBDB /* GiftModel.swift */,
+				926FD1252043E95900AACBDB /* GiftPackage.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -363,6 +509,8 @@
 		92D8D7DF203E92AB0093FE0B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				926FD1142043E85800AACBDB /* ChatView */,
+				926FD10F2043E85800AACBDB /* GiftView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -377,6 +525,7 @@
 		92D8D7E1203E92D80093FE0B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				926389562043A9CE00D9D7CF /* BaseModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -432,9 +581,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92D8D7B2203E8EBB0093FE0B /* Build configuration list for PBXNativeTarget "TZBTV" */;
 			buildPhases = (
+				D3A5A3B2BFAF5F223897819D /* [CP] Check Pods Manifest.lock */,
 				92D8D79C203E8EBA0093FE0B /* Sources */,
 				92D8D79D203E8EBA0093FE0B /* Frameworks */,
 				92D8D79E203E8EBA0093FE0B /* Resources */,
+				21EF6297ED834DD8D3EC998E /* [CP] Embed Pods Frameworks */,
+				A041852FA3FB6AE44E9F3EA4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -486,9 +638,17 @@
 			files = (
 				92D8D7AE203E8EBB0093FE0B /* LaunchScreen.storyboard in Resources */,
 				92D8D7E5203E93040093FE0B /* Home.storyboard in Resources */,
+				926FD1362043EA4F00AACBDB /* QHNormalEmotionSort.plist in Resources */,
+				926FD1372043EA4F00AACBDB /* QHSohuGifSort.plist in Resources */,
+				926FD11D2043E85800AACBDB /* GiftViewCell.xib in Resources */,
 				92D8D7F1203E94680093FE0B /* Rank.storyboard in Resources */,
+				926FD0FF2043DB9900AACBDB /* HomeViewCell.xib in Resources */,
 				92D8D7AB203E8EBB0093FE0B /* Assets.xcassets in Resources */,
+				926FD10C2043E02E00AACBDB /* RoomViewController.xib in Resources */,
+				926FD11F2043E85800AACBDB /* ChatToolsView.xib in Resources */,
 				92D8D7B9203E8FEB0093FE0B /* types.plist in Resources */,
+				926FD11B2043E85800AACBDB /* GiftListView.xib in Resources */,
+				926FD1222043E85800AACBDB /* EmoticonViewCell.xib in Resources */,
 				92D8D7A9203E8EBB0093FE0B /* Main.storyboard in Resources */,
 				92D8D7EF203E94580093FE0B /* Profile.storyboard in Resources */,
 				92D8D7ED203E942F0093FE0B /* Discover.storyboard in Resources */,
@@ -497,14 +657,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21EF6297ED834DD8D3EC998E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TZBTV/Pods-TZBTV-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TZBTV/Pods-TZBTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A041852FA3FB6AE44E9F3EA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TZBTV/Pods-TZBTV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3A5A3B2BFAF5F223897819D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TZBTV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92D8D79C203E8EBA0093FE0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				926FD12E2043E97700AACBDB /* HYPageCollectionViewLayout.swift in Sources */,
 				92D8D7F3203E96BD0093FE0B /* RankViewController.swift in Sources */,
+				926FD1322043E9C400AACBDB /* EmoticonViewModel.swift in Sources */,
 				92D8D7F9203E972D0093FE0B /* UIColor-Extension.swift in Sources */,
+				926FD12A2043E95900AACBDB /* EmoticonPackage.swift in Sources */,
+				9263895B2043BAC400D9D7CF /* AnchorModel.swift in Sources */,
+				9263895D2043BB4F00D9D7CF /* HomeViewModel.swift in Sources */,
 				92D8D7C7203E915C0093FE0B /* MainViewController.swift in Sources */,
+				926FD12D2043E97700AACBDB /* HYPageCollectionView.swift in Sources */,
+				926FD1272043E95900AACBDB /* GiftModel.swift in Sources */,
+				926FD0FE2043DB9900AACBDB /* HomeViewCell.swift in Sources */,
 				92D8D7A6203E8EBB0093FE0B /* ViewController.swift in Sources */,
 				9261816A2041104D001E3017 /* HYTitleView.swift in Sources */,
 				9261816E2041108F001E3017 /* HYTitleStyle.swift in Sources */,
@@ -512,11 +736,26 @@
 				926181682041103B001E3017 /* HYPageView.swift in Sources */,
 				92D8D7F5203E96CC0093FE0B /* DiscoverViewController.swift in Sources */,
 				92D8D7F7203E96DB0093FE0B /* ProfileViewController.swift in Sources */,
+				926FD1212043E85800AACBDB /* EmoticonViewCell.swift in Sources */,
+				926FD10B2043E02E00AACBDB /* RoomViewController.swift in Sources */,
 				9261816520410E53001E3017 /* TZBNavaigationViewController.swift in Sources */,
+				926389572043A9CE00D9D7CF /* BaseModel.swift in Sources */,
+				926FD11E2043E85800AACBDB /* ChatToolsView.swift in Sources */,
+				926FD0FB2043D60D00AACBDB /* NetworkTools.swift in Sources */,
 				92D8D7A4203E8EBA0093FE0B /* AppDelegate.swift in Sources */,
+				926FD1082043DE3300AACBDB /* NibLoadable.swift in Sources */,
 				92D8D7E7203E93560093FE0B /* HomeViewController.swift in Sources */,
+				926FD1012043DBC600AACBDB /* KingfisherExtension.swift in Sources */,
 				2485508D20427A1C00D24C89 /* WatterfallLayout.swift in Sources */,
+				926FD11C2043E85800AACBDB /* GiftViewCell.swift in Sources */,
+				926FD11A2043E85800AACBDB /* GiftListView.swift in Sources */,
+				926FD10E2043E12C00AACBDB /* Emitterable.swift in Sources */,
+				926FD1332043E9C400AACBDB /* GiftViewModel.swift in Sources */,
+				926FD1292043E95900AACBDB /* GiftPackage.swift in Sources */,
+				926FD1282043E95900AACBDB /* Emoticon.swift in Sources */,
 				92232847204142BC00764A74 /* Const.swift in Sources */,
+				926389592043AA3C00D9D7CF /* HomeType.swift in Sources */,
+				926FD1202043E85800AACBDB /* EmoticonView.swift in Sources */,
 				243125DD2042C976001289C2 /* AnchorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -652,6 +891,7 @@
 		};
 		92D8D7B3203E8EBB0093FE0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67A7EC583543D343DBF7B11E /* Pods-TZBTV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -668,6 +908,7 @@
 		};
 		92D8D7B4203E8EBB0093FE0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FDF8631DCFB492DDA91D347 /* Pods-TZBTV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

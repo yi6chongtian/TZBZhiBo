@@ -8,30 +8,45 @@
 
 import UIKit
 
-//protocol WatterfallLayoutDataSource {
-//
-//}
+@objc protocol WatterfallLayoutDataSource : class {
+    
+    /// indexPath高度
+    func waterfallLayout(_ layout : WatterfallLayout, indexPath : IndexPath) -> CGFloat
+    ///列数
+    @objc optional func numberOfColsInWaterfallLayout(_ layout : WatterfallLayout) -> Int
+}
 
 class WatterfallLayout: UICollectionViewFlowLayout {
     
+    weak var datasource :WatterfallLayoutDataSource?
+    
     var attributes : [UICollectionViewLayoutAttributes]? = [UICollectionViewLayoutAttributes]()
     
-    var maxH : CGFloat = 0
+    fileprivate var maxH : CGFloat = 0
+    
+    fileprivate var startIndex : Int = 0
+    
+    fileprivate lazy var colHeights : [CGFloat] = {
+        let cols = self.datasource?.numberOfColsInWaterfallLayout?(self) ?? 2
+        var colHeights = Array(repeatElement(self.sectionInset.top, count: cols))
+        return colHeights
+    }()
     
     override func prepare() {
         super.prepare()
         
-        let cols = 2
+        let cols = datasource?.numberOfColsInWaterfallLayout?(self) ?? 2
         let itemCount = self.collectionView!.numberOfItems(inSection: 0)
         let itemW = (collectionView!.frame.width - sectionInset.left - sectionInset.right - CGFloat((cols - 1))*minimumInteritemSpacing) / CGFloat(cols)
-        var colHeights = Array(repeating: sectionInset.top, count: cols)
-        for i in 0..<itemCount {
+        for i in startIndex..<itemCount {
             let indexPath = IndexPath(item: i, section: 0)
             let attr = UICollectionViewLayoutAttributes(forCellWith: indexPath)
             var attrX : CGFloat = 0
             var attrY : CGFloat = 0
             let attrW = itemW
-            let attrH : CGFloat = CGFloat(arc4random_uniform(100)) + 100.0
+            guard let attrH : CGFloat = datasource?.waterfallLayout(self, indexPath: indexPath) else{
+                fatalError("请提供高度")
+            }
             let minH = colHeights.min()!
             let index = colHeights.index(of: minH)!
             attrX = sectionInset.left + (attrW + minimumInteritemSpacing) * CGFloat(index)
@@ -42,6 +57,7 @@ class WatterfallLayout: UICollectionViewFlowLayout {
             //maxH = colHeights[index]
         }
         maxH = colHeights.max()!
+        startIndex = itemCount
     }
 }
 

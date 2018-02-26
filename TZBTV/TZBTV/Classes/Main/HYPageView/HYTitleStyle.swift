@@ -19,6 +19,8 @@ class HYTitleStyle: NSObject {
     var isScrollEnable : Bool = false
     ///滚动Title的字体间距
     var titleMargin : CGFloat = 20
+    /// 设置titleView的高度
+    var titleHeight : CGFloat = 44
     ///是否显示底部滚动条
     var isShowBottomLine : Bool = false
     ///底部滚动条高度

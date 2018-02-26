@@ -21,15 +21,15 @@ class HYContentView: UIView {
 
     weak var delegate : HYContentViewDelegate?
     
-    private let childVCs : [UIViewController]!
+    fileprivate let childVCs : [UIViewController]!
     
-    private let parentVC : UIViewController!
+    fileprivate let parentVC : UIViewController!
     
-    private var isForbidScrollDelegate : Bool = false
+    fileprivate var isForbidScrollDelegate : Bool = false
     
-    private var startOffsetX : CGFloat = 0.0
+    fileprivate var startOffsetX : CGFloat = 0.0
     
-    private lazy var collectionView : UICollectionView = {
+    fileprivate lazy var collectionView : UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.itemSize = self.bounds.size
         layout.minimumLineSpacing = 0

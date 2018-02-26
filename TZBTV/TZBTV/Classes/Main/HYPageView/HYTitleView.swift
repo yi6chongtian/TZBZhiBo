@@ -16,8 +16,8 @@ class HYTitleView: UIView {
 
     weak var delegate : HYTitleViewDelegate?
     
-    fileprivate lazy var normalColorRGB : (r : CGFloat, g : CGFloat, b : CGFloat) = getRGBWithColor(self.style.normalColor)
-    fileprivate lazy var selectedColorRGB : (r : CGFloat, g : CGFloat, b : CGFloat) = getRGBWithColor(self.style.selectedColor)
+    fileprivate lazy var normalColorRGB : (r : CGFloat, g : CGFloat, b : CGFloat) = self.style.normalColor.getRGB() //getRGBWithColor(self.style.normalColor)
+    fileprivate lazy var selectedColorRGB : (r : CGFloat, g : CGFloat, b : CGFloat) = self.style.selectedColor.getRGB() //getRGBWithColor(self.style.selectedColor)
     
     fileprivate var titles : [String]!
     fileprivate var style : HYTitleStyle!
@@ -40,7 +40,7 @@ class HYTitleView: UIView {
        var lineView = UIView()
         lineView.backgroundColor = UIColor.lightGray
         let h : CGFloat = 0.5
-        lineView.frame = CGRect(x: 0, y: frame.height - h, width: frame.width, height: h)
+        lineView.frame = CGRect(x: 0, y: self.frame.height - h, width: self.frame.width, height: h)
         return lineView
     }()
     
